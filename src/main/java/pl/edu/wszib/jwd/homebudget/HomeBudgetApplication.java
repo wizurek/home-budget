@@ -3,20 +3,18 @@ package pl.edu.wszib.jwd.homebudget;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.PropertySource;
 
 import java.sql.SQLOutput;
 import java.util.Scanner;
 
 @SpringBootApplication
-@PropertySource("classpath:db.properties")
 public class HomeBudgetApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(HomeBudgetApplication.class, args);
 
 
-    /*    double stanKonta;
+        double stanKonta;
         double wydatki;
         double całkowiteWydatki = 0.0;
         double saldoKonta;
@@ -52,8 +50,5 @@ public class HomeBudgetApplication {
 
 
 
-    }
-
-    */
     }
 }
