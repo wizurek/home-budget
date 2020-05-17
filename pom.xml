@@ -9,17 +9,18 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>pl.edu.wszib.jwd</groupId>
-    <artifactId>home-budget</artifactId>
+    <artifactId>home-budget-controller</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>home-budget</name>
-    <description>Projekt koncowy Java Web Developer</description>
+    <name>home-budget-controller</name>
+    <description>Projekt koncowy studiow podyplomowych Java Web Developer</description>
 
     <properties>
         <java.version>1.8</java.version>
     </properties>
 
-    <!--<dependencies>
-        <dependency>
+    <dependencies>
+
+        <!--<dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>-->
@@ -29,17 +30,17 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <!--<dependency>
+        <dependency>
             <groupId>com.microsoft.sqlserver</groupId>
             <artifactId>mssql-jdbc</artifactId>
             <scope>runtime</scope>
-        </dependency>-->
+        </dependency>
 
-       <!-- <dependency>
-            <groupId>org.postgresql</groupId>
-            <artifactId>postgresql</artifactId>
-            <scope>runtime</scope>
-        </dependency>-->
+        <!--<dependency>-->
+        <!-- <groupId>org.postgresql</groupId>
+         <artifactId>postgresql</artifactId>
+         <scope>runtime</scope>
+     </dependency>-->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -64,3 +65,4 @@
     </build>
 
 </project>
+
