@@ -13,6 +13,7 @@ public class HomeBudgetApplication {
     public static void main(String[] args) {
         SpringApplication.run(HomeBudgetApplication.class, args);
 
+/*
 
         double stanKonta;
         double wydatki;
@@ -47,6 +48,7 @@ public class HomeBudgetApplication {
             System.out.println("Wydałeś cały budżet: " + saldoKonta);
             System.out.println("Po roku takiego trybu życia nie zaoszczędzisz nic." + 12*saldoKonta);
         }
+*/
 
 
 
